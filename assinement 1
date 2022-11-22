@@ -1,0 +1,13 @@
+p=int(input('principal amount:'))
+t=int(input('time period:'))
+r=float(input('rate of intrest:'))
+si=(p*t*r)/100
+print('simple intrest',si)
+emi=(si+p/t)*12
+print('emi:',emi)
+out put:
+principal amount:100000
+time period:3
+rate of interst:10.5
+simple intrest 31500.0
+emi:778000.0
